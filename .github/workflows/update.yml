@@ -33,7 +33,7 @@ jobs:
         run: pnpm build && pnpm start
         working-directory: ./github-lang-box
         env:
-          GH_USERNAME: daverbk
+          GH_USERNAME: davidrabko
           GIST_ID: ${{ secrets.LANGS_GIST_ID }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           EXCLUDE: ${{ vars.LANGS_EXCLUDE }}
